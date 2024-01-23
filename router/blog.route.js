@@ -2,7 +2,28 @@ const router = require("express").Router();
 router.get("/:name", (req, res) => {
   res.json({ msg: "hello from blog" });
 });
+// router.post("/", (req, res) => {
+//   console.log(req.query);
+// });
+// router.post("/", (req, res) => {
+//   console.log(req.body);
+// });
+router.put("/", (req, res) => {
+  console.log(req.query);
+});
 router.post("/", (req, res) => {
+  console.log(req.body);
+});
+router.delete("/", (req, res) => {
+  console.log(req.query);
+});
+router.delete("/", (req, res) => {
+  console.log(req.body);
+});
+router.patch("/", (req, res) => {
+  console.log(req.query);
+});
+router.patch("/", (req, res) => {
   console.log(req.body);
 });
 
