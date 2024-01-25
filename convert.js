@@ -1,4 +1,4 @@
-const fixnumber = (num, callback) => {
+const fixnumber = (num) => {
   const number = String(num);
   const seperated = string.split("");
   let count = 0;
